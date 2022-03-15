@@ -1,0 +1,39 @@
+{
+  "name": "DA_API_DEV",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
+    "start": "yarn build && node production-server/index.js",
+    "build": "rm -rf production-server/ && tsc --project tsconfig.server.json && cp src/config/serviceAccountKey.json production-server/config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/helmet": "^4.0.0",
+    "@types/node": "^17.0.18",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase": "^9.5.0",
+    "firebase-admin": "^10.0.0",
+    "helmet": "^4.6.0",
+    "http-status": "^1.5.0",
+    "moment": "^2.29.1",
+    "path": "^0.12.7",
+    "pg": "^8.7.1",
+    "pg-format": "^1.0.4",
+    "reflect-metadata": "^0.1.13",
+    "ts-node-dev": "^1.1.8",
+    "tsoa": "^3.12.0",
+    "typeorm": "^0.2.38",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {}
+}

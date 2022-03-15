@@ -1,0 +1,12 @@
+-- select * from public.permission;
+
+-- select * from public.account;
+
+-- select * from public.role;
+
+-- select * from public.role_permission_permission;
+
+-- select * from public.gender;
+
+-- select * from public.profile;
+

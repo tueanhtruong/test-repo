@@ -1,0 +1,5 @@
+id,name,key,is_enable
+1,Automatic Check-In,AUTOMATIC_CHECK_IN,FALSE
+2,Automatic Approval Vaccination ,AUTOMATIC_APPROVAL_VACCINATION,FALSE
+3,Automatic Approval Test Result ,AUTOMATIC_APPROVAL_TEST_RESULT,FALSE
+4,Automatic Approval Health Condition ,AUTOMATIC_APPROVAL_HEALTH_CONDITION,FALSE

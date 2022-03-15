@@ -1,0 +1,9 @@
+﻿id,name,key,number_of_dose
+1,AstraZeneca,ASTRA_ZENECA,2
+2,SPUTNIK V,SPUTNIK_V,2
+3,Vero Cell,VERO_CELL,2
+4,Pfizer/BioNTech,PFIZER_BIONTECH,2
+5,Moderna,MODERNA,2
+6,Janssen,JANSSEN,1
+7,Hayat - Vax,HAYAT_VAT,2
+8,Abdala,ABDALA,3

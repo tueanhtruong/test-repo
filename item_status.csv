@@ -1,0 +1,4 @@
+﻿id,name,key
+1,pending,PENDING
+2,approved,APPROVED
+3,rejected,REJECTED

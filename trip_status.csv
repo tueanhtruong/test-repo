@@ -1,0 +1,7 @@
+﻿id,key,name
+1,PROCESSING,processing
+2,READY,ready
+3,REJECTED,rejected
+4,CHECK_INS,check_ins
+5,CHECK_OUT,check_out
+6,DRAFT,draft

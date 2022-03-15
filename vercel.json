@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "da-api",
+  "builds": [
+    { "src": "./production-server/index.js", "use": "@vercel/node" },
+    {
+      "src": "./production-server/config/serviceAccountKey.json",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "./production-server/*/*.js",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [{ "src": "/(.*)", "dest": "/production-server" }]
+}
